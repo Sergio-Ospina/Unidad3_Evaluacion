@@ -69,3 +69,14 @@ podman volume prune -f
 ```batch
 podman-compose up -d --build
 ```
+
+# Changelog
+
+## [1.1.0] - 2026-04-14
+
+### Added
+- Validación de visualización de datos en la tabla de artistas.
+
+### Changed
+- Optimización de consulta SQL en `main.py`.
+- Adición de registro en la base de datos en `init.sql`.
