@@ -20,4 +20,5 @@ INSERT INTO artistas (nombre, genero, ultimo_exito, popularidad) VALUES
 ('Ryan Castro', 'Reguetón', 'Quema', 89),
 ('Jhonny Rivera', 'Popular', 'Te extraño', 88),
 ('Blessd', 'Reguetón', 'Si Sabe Ferxxo', 95),
-('Paola Jara', 'Popular', 'Murió el Amor', 87);
+('Paola Jara', 'Popular', 'Murió el Amor', 87),
+('Juanes', 'Rock', 'A Dios le pido', 99);
