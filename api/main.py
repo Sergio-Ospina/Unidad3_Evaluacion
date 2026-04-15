@@ -45,7 +45,7 @@ async def leer_vista(request: Request):
     try:
         cursor = conexion.cursor(dictionary=True)
         # Consulta para el ranking de popularidad
-        cursor.execute("SELECT * FROM artistas ORDER BY popularidad DESC LIMIT 10")
+        cursor.execute("SELECT nombre, genero, ultimo_exito, popularidad FROM artistas ORDER BY popularidad DESC LIMIT 10")
         datos = cursor.fetchall()
         return templates.TemplateResponse(
             request=request,
